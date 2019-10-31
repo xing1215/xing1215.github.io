@@ -6,12 +6,8 @@ output:
     toc_float: true
 ---
 
-Xing Chen
-509 W 110th street, New York, NY, 10025
-
-646-280-7269, xc2472@cumc.columbia.edu
-
 # Education
+
 Columbia University, Mailman School of Public Health, New York, NY
 
 Master of Public Health(MPH), Biostatistics, expected May 2020
