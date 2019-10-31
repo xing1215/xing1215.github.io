@@ -9,3 +9,13 @@ output:
 **Welcome to Xing's website!!!**
 
 ![](IMG_0342.gif)
+
+
+## Introduction 
+
+Hello, my name is Xing and welcome to my website! I am a current biostatistic MPH student 
+in Mailman School, Columbia University. I love playing badminton and reading detective 
+novels and I hope one day I could play as good as Lin Dan!
+
+
+
