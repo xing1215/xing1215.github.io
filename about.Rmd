@@ -1,8 +1,63 @@
 ---
-title: "About"
+title: "Resume"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
+
+Xing Chen
+509 W 110th street, New York, NY, 10025
+
+646-280-7269, xc2472@cumc.columbia.edu
+
+# Education
+Columbia University, Mailman School of Public Health, New York, NY
+
+Master of Public Health(MPH), Biostatistics, expected May 2020
+
+*	Certificate of Comparative Effectiveness Outcome Research
+
+*	Statistical Computing with SAS, Analysis of Categorical Data, Applied Regression, and decision analysis are currently taking 
+
+University of Washington, Washington, WA
+
+Bachelor of Science, Biochemistry, June 2018
+
+Dean’s list
+
+# Experience
+
+## Pharmacy department of Hua Er Ophthalmology Hospital, Beijing, China, 07-09/2017
+
+*	Worked with other colleagues to prepare the seasonal management report and sent the report to the board of hospital. 
+
+*Collected and analyzed data on various ophthalmology diseases, the usage of prescribed medicines, and the number of operations performed, to prepare financial reports. 
+
+*	Compared and Analyzed the market prices of the currently used medicines and the market prices of medicines in other brands, as well as the usage and turnover rate of sickbed, to improve the treatment efficiency and budget control. 
+
+*	Trained to learn the knowledge about some common ophthalmology diseases and the knowledge about some common contraindications during the treatment.
+
+*	Accurately input the data of selling medicines and patients information into the hospital system to control the budget and improve the efficiency of current treatment and bring that to a supervisor. 
+
+## Independent program/research in Chemistry lab, Washington, WA, February-May 2016
+
+*	Conducted a series of organic experiments and biochemistry experiments to practice the theories we have learned in lab. 
+
+*	Analyzed data through excel and prepared lab reports and reported results to professor. 
+
+*	Strengthened ability of logical thinking, the ability of analyzing the experimental data, and the skills of using excel. 
+
+*	Mastered expertise to use analyzing tools in biochemistry area, including IR spectrum test, GC-MS, NMR, and TLC, and be able to accurately analyze the data from these tools. 
+
+# Skills
+
+Association of Chartered Certified Accountants (ACCA) candidate
+
+Computer programming: JAVA, Microsoft Office
+
+Computer statistics analysis: Excel, SAS, Treeage (decision tree analysis)
+
+Language: Chinese, English
+
 
