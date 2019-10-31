@@ -1,7 +1,11 @@
 ---
-title: "Holy cow!"
+title: "Xing Chen"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
-### I have a webpage!
+**Welcome to Xing's website!!!**
 
-And I can put all kinds of stuff on it!
+![](IMG_0342.gif)
