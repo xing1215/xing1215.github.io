@@ -28,11 +28,11 @@ Dean’s list
 
 # Experience
 
-## Pharmacy department of Hua Er Ophthalmology Hospital, Beijing, China, 07-09/2017
+### Pharmacy department of Hua Er Ophthalmology Hospital, Beijing, China, 07-09/2017
 
 *	Worked with other colleagues to prepare the seasonal management report and sent the report to the board of hospital. 
 
-*Collected and analyzed data on various ophthalmology diseases, the usage of prescribed medicines, and the number of operations performed, to prepare financial reports. 
+* Collected and analyzed data on various ophthalmology diseases, the usage of prescribed medicines, and the number of operations performed, to prepare financial reports. 
 
 *	Compared and Analyzed the market prices of the currently used medicines and the market prices of medicines in other brands, as well as the usage and turnover rate of sickbed, to improve the treatment efficiency and budget control. 
 
@@ -40,7 +40,7 @@ Dean’s list
 
 *	Accurately input the data of selling medicines and patients information into the hospital system to control the budget and improve the efficiency of current treatment and bring that to a supervisor. 
 
-## Independent program/research in Chemistry lab, Washington, WA, February-May 2016
+### Independent program/research in Chemistry lab, Washington, WA, February-May 2016
 
 *	Conducted a series of organic experiments and biochemistry experiments to practice the theories we have learned in lab. 
 
