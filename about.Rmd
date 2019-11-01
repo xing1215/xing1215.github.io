@@ -48,12 +48,12 @@ Dean’s list
 
 # Skills
 
-Association of Chartered Certified Accountants (ACCA) candidate
+* Association of Chartered Certified Accountants (ACCA) candidate
 
-Computer programming: JAVA, Microsoft Office
+* Computer programming: JAVA, Microsoft Office
 
-Computer statistics analysis: Excel, SAS, Treeage (decision tree analysis)
+* Computer statistics analysis: Excel, SAS, Treeage (decision tree analysis)
 
-Language: Chinese, English
+* Language: Chinese, English
 
 
