@@ -13,8 +13,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-
-dataset cleaning 
+The data of these plots are from NY_NOAA
 
 ```{r}
 data("ny_noaa")
@@ -45,7 +44,7 @@ ny_noaa =
 Column {data-width=600}
 -----------------------------------------------------------------------
 
-### Chart A
+### Scatter plot of tmax and tmin
 
 ```{r}
 ny_noaa %>% 
@@ -56,7 +55,7 @@ ny_noaa %>%
 Column {data-width=400}
 -----------------------------------------------------------------------
 
-### Chart B
+### Bar chart of total snow for each in each site
 
 ```{r}
 ny_noaa %>% 
@@ -65,7 +64,7 @@ ny_noaa %>%
   plot_ly(x = ~year, y = ~total_snow, type = "bar", color = ~name)
 ```
 
-### Chart C
+### Box plot of precipitation for each year in central part
 
 ```{r}
 ny_noaa %>% 
