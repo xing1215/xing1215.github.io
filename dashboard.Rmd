@@ -13,7 +13,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-The data of these plots are from NY_NOAA
+The data of these plots are from sites CentralPark_NY, UTICA_ONEIDA_CO_AP_NY, and/or JFK_Intl_AP_NY
 
 ```{r}
 data("ny_noaa")
