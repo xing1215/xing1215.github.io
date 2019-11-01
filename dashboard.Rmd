@@ -8,7 +8,39 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
 ```
+
+
+dataset cleaning 
+
+```{r}
+data("ny_noaa")
+
+set.seed(1)
+
+ny_noaa = 
+  ny_noaa %>% 
+  drop_na(prcp, snow, tmin, tmax, snwd) %>% 
+  mutate(
+    tmin = as.numeric(tmin),
+    tmax = as.numeric(tmax)
+  ) %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>% 
+  filter(id %in% c("USW00094728", "USW00094794","USW00094789")) %>% 
+  mutate(
+    name = recode(id, "USW00094728" = "CentralPark_NY",
+                      "USW00094794" = "UTICA_ONEIDA_CO_AP_NY",
+                      "USW00094789" = "JFK_Intl_AP_NY"),
+    tmin = tmin / 10,
+    tmax = tmax / 10
+  ) %>% 
+  select(-id) %>% 
+  sample_n(5000)
+```
+
 
 Column {data-width=650}
 -----------------------------------------------------------------------
@@ -16,7 +48,9 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-
+ny_noaa %>% 
+  plot_ly(x = ~tmax, y = ~tmin, type = "scatter", mode = "markers", 
+          color = ~name, alpha = 0.5)
 ```
 
 Column {data-width=350}
@@ -25,12 +59,18 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
+ny_noaa %>% 
+  group_by(year, name) %>% 
+  mutate(total_snow = sum(snow)) %>% 
+  plot_ly(x = ~year, y = ~total_snow, type = "bar", color = ~name)
 ```
 
 ### Chart C
 
 ```{r}
-
+ny_noaa %>% 
+  filter(name == "CentralPark_NY", prcp != 0) %>% 
+  mutate(year = fct_reorder(year, prcp)) %>% 
+  plot_ly(x = ~year , y = ~prcp, type = "box")
 ```
 
